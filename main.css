@@ -1,0 +1,106 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+}
+.wrapper {
+  width: 800px;
+  margin: 0 auto;
+}
+.block {
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, yellow, #ff8000);
+  color: white;
+  position: relative;
+}
+.block:hover {
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, yellow, #ff8000);
+  position: absolute;
+}
+.block:active {
+  background-image: linear-gradient(90deg, #ff8000, yellow);
+  transition: all 10s linear;
+  position: absolute;
+}
+.box {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+}
+.block1 {
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, rgb(219, 82, 192), #6b86d5);
+  color: white;
+}
+.block1:hover {
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, rgb(219, 82, 192), #6b86d5);
+}
+.block1:active {
+  background-image: linear-gradient(90deg, #6b86d5, rgb(219, 82, 192));
+  transition: all 10s linear;
+}
+.block2 {
+  width: 160px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, aqua, rgb(112, 230, 112));
+  color: white;
+}
+.block2:hover {
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, aqua, rgb(112, 230, 112));
+}
+.block2:active {
+  background-image: linear-gradient(90deg, rgb(112, 230, 112), aqua);
+  transition: all 10s linear;
+}
+.block3 {
+  width: 330px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, aqua, rgb(230, 228, 228));
+  color: white;
+}
+.block3:hover {
+  border-radius: 8%;
+  background-image: linear-gradient(90deg, aqua, rgb(230, 228, 228));
+}
+.block3:active {
+  background-image: linear-gradient(90deg, rgb(230, 228, 228), aqua);
+  transition: all 10s linear;
+}
+.block4 {
+  width: 330px;
+  padding: 10px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 9%;
+  background-image: linear-gradient(90deg, rgb(255, 98, 0), rgb(230, 228, 228));
+  color: white;
+}
+.block4:hover {
+  border-radius: 9%;
+  background-image: linear-gradient(90deg, rgb(255, 98, 0), rgb(230, 228, 228));
+}
+.block4:active {
+  background-image: linear-gradient(90deg, rgb(230, 228, 228), rgb(255, 98, 0));
+  transition: all 10s linear;
+}
+.box1 {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+}
